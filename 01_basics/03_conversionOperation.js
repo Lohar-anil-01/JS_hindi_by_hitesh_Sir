@@ -31,3 +31,47 @@ let stringNumber = String(someNumber);
 
 console.log(stringNumber);
 console.log(typeof stringNumber);
+
+// ****************************** Operations ****************************** //
+
+let value = 3;
+let negValue = -value
+// console.log(negValue);
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**3);
+// console.log(2/3);
+// console.log(2%3);
+
+let str1 = "hello";
+let str2 = " hitesh";
+
+let str3 = str1 + str2;
+// console.log(str3);
+
+// console.log("1" + 2);
+// console.log(1 + "2");
+// console.log("1"+ 2 + 2);
+// console.log(1 + 2 + "2");
+
+// console.log((3 + 3) * 5 % 3);
+
+// console.log(+true); // don't use like this in real world production project
+// console.log(++true);  /*  Invalid left-hand side expression in prefix operation */
+// console.log(true+); /* Unexpected token ')' */
+
+// console.log(+""); // don't use like this in real world production project
+
+// let num1, num2, num3
+
+// num1 = num2 = num3 = 2 + 2;
+// console.log(num1);
+// console.log(num2);
+// console.log(num3);
+
+
+gameCounter = 100
+gameCounter ++
+console.log(gameCounter);
