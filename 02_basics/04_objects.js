@@ -54,4 +54,33 @@ const user = [
 // console.log(Object.entries(tindeUser))  /*results in nesting array [ [ 'id', '123abc' ], [ 'name', 'Sammy' ], [ 'isLoggedIn', false ] ]*/
 
 
-console.log(tindeUser.hasOwnProperty("isLoggedIn"));
+// console.log(tindeUser.hasOwnProperty("isLoggedIn"));
+
+
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "Hitesh"
+}
+
+// course.courseInstructor
+
+const {courseInstructor: instructor} = course;
+
+// console.log(courseInstructor);
+console.log(instructor);
+
+
+// api structure
+
+// {
+//     "name": "Hitesh",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
+
+[
+    {},
+    {},
+    {},
+]
