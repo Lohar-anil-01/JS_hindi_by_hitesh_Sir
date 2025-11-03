@@ -31,3 +31,37 @@ function loginUserMessage(username = "Sam"){
 console.log(loginUserMessage("Hitesh Sir"));
 // console.log(loginUserMessage("")); /*returned empty space*/
 // console.log(loginUserMessage());  /*returned undefined*/
+
+
+/* ########## passing objects and arrays as argument in function ##########*/ 
+function calculateCartPrice(price1, price2, ...prices){
+    return prices
+    // return price1, price2, prices /*Not getting any output*/
+}
+
+// console.log(calculateCartPrice(200, 400, 6000, 500, 800));
+
+const user = {
+    username : "Anil",
+    prices: 199,
+}
+
+function handleObject(anyObject){
+    // console.log(`Username is ${anyObject.username} and price is ${anyObject.price}`);
+}
+
+// handleObject(user)
+handleObject({
+    username: "Sam",
+    price:399
+})
+
+const myNewArray = [200, 400, 100, 600];
+
+function returnSecondValue(getArray){
+    return getArray[2]
+}
+
+// console.log(returnSecondValue(myNewArray));
+console.log(returnSecondValue([200, 400, 100, 600]));
+
